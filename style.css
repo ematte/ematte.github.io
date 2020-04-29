@@ -1,85 +1,63 @@
-body {
-  font-family: 'Open Sans', sans-serif;
+img{
+  width: 100%;
 }
-
-main {
-  width: 600px;
-  margin: 0 auto;
-}
-
-.newsletter-form {
-  color: #666666;
-  border: 1px solid #cccccc;
-  padding: 10px;
-  border-radius: 3px;
+header{ 
   position: relative;
-}
+  }
 
-input[type="text"] {
-  width: 100%;
-  box-sizing: border-box;
-  height: 30px;
-  margin: 0 0 5px;
-}
-
-input[type="submit"] {
-  width: 100%;
-  box-sizing: border-box;
-  background: #3cb878;
-  border: 0;
-  color: white;
-  height: 30px;
-  margin: 0 0 10px;
-  cursor: pointer;
-}
-
-.newsletter-form h2 {
-  margin-top: 0;
-}
-
-a {
-  color: #3CB878;
-}
-
-.exit-button {
+div {
   position: absolute;
-  top: 3px;
-  right: 10px;
-  cursor: pointer;
-}
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Abril Fatface', cursive; 
+  font-size: 50px}
 
-.question-button {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+.fatface {
+  font-family: 'Abril Fatface', cursive; 
+font-size: 50px}
+blockquote {
+  background: #222;
   color: white;
-  font-size: 70px;
-  text-align: center;
-  border-radius: 50%;
-  background: #3cb878;
-  z-index: 10;
-  cursor: pointer;
+  text-align: left;
+  padding: 10px;
+  margin: auto;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  text-indent: left;
+  width:80%
 }
-
-.key-features {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+blockquote::before {
+  content: '”';
 }
-
-.feature {
-  background: #3cb878;
-  padding: 30px;
-  margin: 10px 0px;
+h2{
+  font-family: 'Merriweather', serif;
+  line-height: 1
+  
+  
 }
-
-.feature p {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 0;
-text-align: center;
+.uppercase{
+  text-transform: uppercase;
+  line-height: 2;
+}
+.italic{
+  font-style: italic;
+  font-size: 15px;
+  line-height: 0;
+}
+p, li {
+  font-family: 'Josefin Sans', sans-
+    serif;
+  
+}
+footer {
+  margin: auto;
+  border-top: 5px;
+  padding-top: 5px;
+  border-top: 3px solid
+}
+section {
+  display: block;
+  margin: auto;
+  width: 63%
 }
